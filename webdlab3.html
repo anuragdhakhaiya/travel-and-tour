@@ -1,0 +1,191 @@
+<!DOCTYPE html> <html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration Form</title>
+<style>
+.f {
+background-color: #dac292; height: 20vh; position: relative; left:0;
+bottom: 0; width:100%; text-align: center;
+}
+.open { background-color: rgb(124, 78, 8);
+}
+.navbar { background-color: #dac292;
+;
+}
+.navbar ul {
+overflow: auto;
+}
+.navbar li {
+float: left; list-style: none;
+margin: 15px 20px;
+}
+.navbar li a { padding: 3px 3px; text-decoration: none; color: rgb(20, 3, 3);
+}
+.search {
+float: right; color: white; padding: 12px 75px; margin: 10px;
+}
+.navbar input { border: 2px solid black; border-radius: 14px;
+;
+padding: 3px 7px; color: black;
+}
+.title { display: inline;
+padding: 2vw 3vh; background-color:#b16112; display: flex; justify-content: center; align-items: center; background: url(imsec.jpg) 2vw 1.8vh; background-size: contain; overflow: auto; background-repeat: no-repeat;
+}
+body {
+background-color:#e6e2d3
+}
+.frm {
+color: rgb(20, 3, 3); box-shadow: 0 10px 20px -6px #a80606;
+background-size: cover; filter: contrast();
+}
+.table { border: 2px solid black; border-radius: 14px;
+padding: 3px 7px; color: black; background-color: green;
+}
+.frm button { border: 2px solid black; border-radius: 6px;
+padding: 3px 7px; color: black;
+background-color: rgb(153, 165, 43);
+}
+</style>
+<body>
+<div class="title" padding="10">
+<center>
+<H1> IMS Engineering College </H1>
+<p>NH-09, Adhyatmik Nagar,<br> Distt: Ghaziabad. UP.
+Landline: 0120-4940000<br> Email-Id: imsec@imsec.ac.in WhatsApp: +91-9821396583</p>
+</center>
+</div>
+<nav class="navbar">
+<ul>
+<li><a href="imshome.html">Home</a></li>
+<li><a href="login.html" onclick="alert('Do you Want To Login')">Login</a></li>
+<li><a href="#">Registration</a></li>
+<li><a href="About.html">About</a></li>
+<input type="search" class="search" id="search" placeholder="search here">
+</ul>
+</nav>
+<DIV class="open"><br>
+<center>
+<center>
+<h1>Registration Form</h1>
+</center>
+</center>
+</DIV>
+<br>
+<div class="frm">
+<table align="center" border="4px">
+<form>
+<tr>
+<td>Student Name</td>
+<td><input type="text" name="Student" placeholder="Enter students name"></td>
+&nbsp; <td>Photo</td>
+<td><input type="file" name="img" placeholder="upload image"> </td>
+</tr>
+<tr>
+<td>Mobile Number</td>
+<td>
+<input type="telNo" name="number" placeholder="Enter students mobile no.">
+</td>
+<td>
+Gender
+</td>
+<td><input type="radio" name="gender">Male</input>
+ 
+&nbsp;<input type="radio" name="gender">Female</input></td>
+<tr>
+<td>Password</td>
+<td><input type="password" name="pass" placeholder="Enter unique Admission
+id"></td>
+</tr>
+<tr>
+<td>Course</td>
+<td><select name="Course">
+<option>SELECT</option>
+<option>B.tech</option>
+<option>MBA</option>
+<option>MBA</option>
+</select></td>
+<td>Branch(if B.tech)></td>
+<td><select name="Branch">
+<option>SELECT</option>
+<option>CSE</option>
+<option>CS</option>
+<option>AIML</option>
+<OPTION>CE</OPTION>
+</select></td>
+</tr>
+<tr>
+<th>10th Details</th>
+</tr>
+<tr>
+<td>Total Marks</td>
+<td>
+<input type="number" name="num" placeholder="Total marks ">
+</td>
+<td>Obtained Marks</td>
+<td>
+<input type="number" name="num" placeholder="Obtained marks "> </td>
+</tr>
+<tr>
+<td>Marksheet</td>
+<td><input type="file" name="mark" placeholder="upload mark">
+</tr>
+<tr>
+<th>12th Details</th>
+<tr>
+<td>Total Marks</td>
+<td>
+<input type="number" name="num" placeholder="Total marks ">
+</td>
+<td>Obtained Marks</td>
+<td>
+<input type="number" name="num" placeholder="Obtained marks "> </td>
+</tr>
+<tr>
+<td>Marksheet</td>
+<td><input type="file" name="mark" placeholder="upload mark">
+</tr>
+<tr>
+<td>Co-curricular Activities(if any)</td>
+<td><input type="checkbox" name="cb">cricket
+<input type="checkbox" name="cb">basketball<br>
+<input type="checkbox" name="cb">football
+<input type="checkbox" name="cb">tennis<br>
+<input type="checkbox" name="cb">carrom
+<input type="checkbox" name="cb">others
+<textarea name="txt" rows=1 cols=8></textarea>
+</td>
+<td>address</td>
+<td>
+<textarea name="fh" rows=4 cols=30 placeholder="address"></textarea> </td>
+</tr>
+<tr>
+<td>Email</td>
+<td>
+<input type="email" name="eml" placeholder="Enter your email"> </td>
+</tr>
+<tr>
+<td>Adhaar No</td>
+</td>
+<td>
+<input type="number" name="eml" placeholder="Enter your Adhaar number"> </td>
+<tr>
+<center>
+<td>
+<td><button type="submit" name="lo" onclick="alert('Do you Want Tosubmit')">Submit</button>
+&nbsp; &nbsp; &nbsp;
+<button type="reset" name="lo" onclick="alert('Do you Want To Refresh')">Refresh</button>
+</td>
+</center>
+</tr>
+</form>
+</table>
+</div>
+<footer>
+<div class="f">
+This form was created by Anurag Verma CSE1 IMSEC<BR>
+<TD>FEEDBACK</TD>
+<input type="text" placeholder="Give feedback"> </div>
+</footer>
+</body>
+</html>

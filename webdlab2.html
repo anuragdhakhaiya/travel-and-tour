@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>lOGIN</title>
+<style>
+* {
+margin: 0;
+padding: 0;
+}
+.n {
+height: 55vh;
+background-size: 100% 100%;
+box-shadow: 0 10px 20px -6px #000;
+background-repeat: no-repeat;
+background-image: url("ims.jpg");
+}
+
+.LOG {
+    background-color: #181818;
+    font-size: larger;
+    color: aliceblue;
+    margin-bottom: 5px;
+    }
+    .title {
+    display: inline;
+    padding: 2vw 3vh;
+    background-color: #b16112;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(imsec.jpg) 7px 6px;
+    background-size: contain;
+    overflow: auto;
+    background-repeat: no-repeat;
+    }
+    .lo input {
+    border: 2px solid rgb(48, 46, 46);
+    border-radius: 14px;
+    ;
+    padding: 3px 7px;
+    color: black;
+    }
+    body{
+    background-color:rgb(201, 159, 96);
+    }
+    .lo button {
+    border: 2px solid black;
+    border-radius: 14px;
+    margin: 25px;
+    padding: 3px 17px;
+    color: black;
+    background-color: rgb(100, 236, 100);
+    cursor: pointer;
+    }
+    .navbar {
+    background-color: #dac292;
+    }
+    .navbar ul {
+    overflow: auto;
+    }
+    .navbar li {
+    float: left;
+    list-style: none;
+    margin: 15px 20px;
+    }
+    .navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: rgb(20, 3, 3);
+    }
+    .search {
+    float: right;
+    color: white;
+    padding: 12px 75px;
+    margin: 10px;
+    }
+    .navbar input {
+    border: 2px solid black;
+    border-radius: 14px;
+    ;
+    padding: 3px 7px;
+    color: black;
+    }
+    #fp{
+        color: rgb(13, 48, 221);
+        text-decoration: none;
+       
+        }
+        #si,#si:hover{
+        color: rgb(23, 61, 230);
+        text-decoration: none;
+        }
+        .f{
+            text-align: center;
+            margin-top: 30px;
+            row-gap: 5px;
+        }
+        </style>
+        </head>
+        <body>
+        <div class="title" padding="10">
+        <center>
+        <H2> IMS Engineering College </H2>
+        <p>NH-09, Adhyatmik Nagar,<br>
+        Distt: Ghaziabad. UP.
+        Landline: 0120-4940000<br>
+        Email-Id: imsec@imsec.ac.in
+        WhatsApp: +91-9821396583</p>
+        </center>
+        </div>
+        <nav class="navbar">
+        <ul>
+        <li><a href="imshome.html">Home</a></li>
+        <li><a href="registration.html" onclick="alert('Do you Want Toregister')">Registration</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="About.html">About</a></li>
+        <input type="search" class="search" id="search" placeholder="search here">
+        </ul>
+        </nav>
+        <DIV class="LOG"><br>
+        <center>
+        <H1>Login</H1>
+        </center>
+        </DIV>
+        <div class="n">
+            <div class="lo">
+            <center><br>
+            <table >
+            <form>
+            <tr>
+            <td><b>User Name</td>
+            <td><input type="Text" placeholder="Username"></td></tr>
+            <tr> <td><b>Password</td>
+            <td><input type="password" placeholder="Password"></td></tr>
+            <td><button type="submit" id="submit" onclick="alert('Do you Want To submit')">Submit</button>
+            </td>
+            <td><button type="reset" name="lo"
+            onclick="alert('Do you Want To Refresh')">Refresh</button>
+            </td>
+            </tr>
+            </table>
+            </form>
+            <th>
+            <a href="registration.html" id="fp">Forgot Password?</a>
+            </th>
+            <h3><a href="registration.html" id="si">Sign In</a> </h3>
+            </center>
+            <footer>
+                <div class="f">
+                This form was created by Anurag Verma CSE1 IMSEC<BR>
+                <TD>FEEDBACK</TD>
+                <input type="text" placeholder="Give feedback"> </div>
+                </footer>
+            
+            </div>
+            </body>
+            </html>
+        
+        
